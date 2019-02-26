@@ -1,0 +1,12 @@
+body {
+  background-color: snow;
+}
+
+h1 {
+  text-align: center;
+}
+
+canvas {
+ border: black;
+ background-color: aliceblue;
+}
