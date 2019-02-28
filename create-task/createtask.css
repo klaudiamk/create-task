@@ -4,9 +4,33 @@ body {
 
 h1 {
   text-align: center;
+  font-family: "SueEllenFransico";
+  font-size: 36px;
 }
 
-canvas {
- border: black;
- background-color: aliceblue;
+li {
+  display: inline;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: silver;
+}
+
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: cornflowerblue;
+  color: black;
 }
