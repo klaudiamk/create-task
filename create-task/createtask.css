@@ -1,8 +1,111 @@
-body {
-  background-color: snow;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ body {
+  background-color: aliceblue;
+}
+
+body h2 {
+  padding: 10px 20px;
+}
+body p {
+  padding: 0px 20px;
 }
 
 h1 {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: silver;
+}
+
+nav p {
+  font-family: arial;
+  color: black;
+  font-size: 24px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 20px;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  font-family: arial;
+  color: black;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: silver;
+  padding: 0px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 110px;
+}
+
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+  background-color: white;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* h1 {
   text-align: center;
   font-family: "SueEllenFransico";
   font-size: 36px;
@@ -33,4 +136,4 @@ li a {
 li a:hover {
   background-color: cornflowerblue;
   color: black;
-}
+}*/
