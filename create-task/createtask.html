@@ -5,6 +5,11 @@
   <link rel = "stylesheet" type = "text/css" href = "createtask.css">
   <link rel = "stylesheet" type = "text/javascript" href = "createtask.js">
 
+<div class = "container">
+    <img src="images/light-pink-paint-splatter.png" style="width:100%;">
+    <div class="centered">kloud kafe</div>
+</div>
+
   <nav>
   <p>kloud kafe</p>
     <ul>
@@ -23,11 +28,39 @@
 </head>
 <body>
 
-  <div class="container">
-    <img src="images/light-pink-paint-splatter.png" style="width:100%;">
-    <div class="centered">kloud kafe</div>
-  </div>
-<hr/>
+<script>
+  var i = 0; //Start Point
+  var images = [];
+  var time = 3000;
+
+  //image list
+
+  images[0] = "images/pearl-cupcake.jpg";
+  images[1] = "images/lemon-curd-tart.jpg";
+  images[2] = "images/rye-bread.jpg";
+  images[3] = "images/chocolate-chip-cookies.jpg";
+  images[4] = "images/cinnamon-rasin-bread.jpg";
+  images[5] = "images/white-chocolate-mousse-pastry.jpg";
+
+  //change images
+  function changeImg (){
+    document.slide.src = images[i];
+
+
+    if (i < images.length - 1) {
+      i++;
+    } else {
+      i = 0;
+    }
+    setTimeout("changeImg()",time);
+  }
+
+  window.onload = changeImg;
+
+
+</script>
+
+<img name = "slide" width = "800px" height = "500px">
 
 </body>
 </html>

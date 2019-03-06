@@ -101,58 +101,12 @@ div.gallery:hover {
   border: 1px solid #777;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
+img {
+  height: 200px;
+  width: 100px;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
 }
-
-img {
-  max-width: 800px;
-  position: relative;
-  margin: auto;
-}
-
-
-
-
-
-
-
-
-/* h1 {
-  text-align: center;
-  font-family: "SueEllenFransico";
-  font-size: 36px;
-}
-
-li {
-  display: inline;
-  float: left;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  background-color: silver;
-}
-
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
-}
-
-li a:hover {
-  background-color: cornflowerblue;
-  color: black;
-}*/
