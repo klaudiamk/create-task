@@ -112,47 +112,13 @@ div.desc {
 }
 
 img {
-  max-width: 800px;
-  position: relative;
-  margin: auto;
+ margin-top: 25px;
 }
 
-
-
-
-
-
-
-
-/* h1 {
-  text-align: center;
-  font-family: "SueEllenFransico";
-  font-size: 36px;
+button {
+  height: 35px;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: pink;
 }
-
-li {
-  display: inline;
-  float: left;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  background-color: silver;
-}
-
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
-}
-
-li a:hover {
-  background-color: cornflowerblue;
-  color: black;
-}*/

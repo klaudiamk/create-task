@@ -94,18 +94,16 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 230px;
-  height: 250px;
+  width: 180px;
 }
 
 div.gallery:hover {
   border: 1px solid #777;
 }
 
-img {
-  width: 210px;
-  height: 190px;
-  padding: 10px
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
 div.desc {
