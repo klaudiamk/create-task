@@ -96,6 +96,7 @@ div.gallery {
   float: left;
   width: 230px;
   height: 250px;
+  padding: 5px;
 }
 
 div.gallery:hover {
