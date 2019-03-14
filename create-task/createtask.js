@@ -22,3 +22,7 @@ function changeImg (){
 }
 
 window.onload = changeImg;
+
+function menu() {
+  
+}
